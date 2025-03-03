@@ -1,12 +1,12 @@
 import {age,name} from './data.js'
-import hiComponent from './hi.js'
+import HiComponent from './hi.js'
 
 export default function Cart() {
   return (
     <div>
       <h4 className="title">Cart</h4>
       <CartItem/>
-      <hiComponent/>
+      <HiComponent/>
     </div>
   );
 }
